@@ -9,7 +9,7 @@ import javafx.scene.control.Label;
 public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
-        Label message  = new Label("Welcome, Nikiwe Mwale!!!");
+        Label message  = new Label("Welcome, Nyangu Chimwemwe Mubanga!!!");
         Button button = new Button("Start");
         Button newbutton = new Button( "Reset" );
 
@@ -17,7 +17,7 @@ public class HelloJavaFX extends Application {
                 message.setText("Great! You clicked the button.")
         );
         newbutton.setOnAction(event ->
-                message.setText("Welcome, Nikiwe Mwale!!!")
+                message.setText("Welcome, Nyangu Mubanga!!!")
         );
 
         VBox layout = new VBox(20);
